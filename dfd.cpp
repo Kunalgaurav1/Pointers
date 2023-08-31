@@ -34,6 +34,7 @@ int main(){
    cout << a << endl;
    cout << *p << endl;
 */
+/*
 
 int a = 9;
 int* p = &a;
@@ -45,6 +46,13 @@ cout << *p << endl;//value of a
 cout << q << endl; //address of p
 cout << *q << endl; //address of a
 cout << **q << endl; // value of a
+*/
+
+int a = 7;
+int * c = &a;
+cout << c << endl;
+c = c + 3;
+cout << c << endl;
 
 
 
